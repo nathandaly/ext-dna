@@ -1,0 +1,17 @@
+/*
+ *  This file can be used to set variables and supply global styling.  View specific 
+ *  styling should be located the view's corresponding scss file.
+ */
+$enable-font-awesome: dynamic(true);
+
+html {
+  background: url('https://atlas.intienet.com/accounts/atlas/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.x-body {
+  background: transparent!important;
+}
